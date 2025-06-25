@@ -46,9 +46,9 @@ menu = st.sidebar.radio("📌 Navigasi", ["Home", "Prediksi", "Visualisasi"])
 if menu == "Home":
     st.title("👋 Selamat Datang di Aplikasi Prediksi Stres")
     st.write("""
-        Aplikasi ini membantu memprediksi tingkat stres berdasarkan data seperti suhu, kelembaban, dan jumlah langkah harian.
+        Aplikasi ini membantu memprediksi tingkat stres berdasarkan data seperti Humidity, Temperature, dan Step count.
         
-        Silakan pilih menu **Prediksi** untuk mulai mengisi data atau lihat **Visualisasi** untuk melihat grafik dan informasi terkait stres.
+        Silakan pilih menu **Prediksi** untuk mulai mengisi data dan menu **Visualisasi** untuk melihat Confusion Matrix Model Prediksi Stres.
     """)
 
 # ====== Halaman: PREDIKSI ======
