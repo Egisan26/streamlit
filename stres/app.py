@@ -86,6 +86,6 @@ elif menu == "Visualisasi":
     st.title("📊 Visualisasi Data Stres")
     st.write("Berikut adalah visualisasi confusion matrix dari model prediksi stres:")
 
-    st.image("cnf.png", 
+    st.image("stres/cnf.png", 
              caption="Confusion Matrix Model Prediksi Stres", 
              use_container_width=True)
